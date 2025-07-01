@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "26169716-f3af8422-f00d-4e16-8813-0190132bee25",
+		"name": "新しいコレクション",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "新規リクエスト",
+			"id": "26169716-df093c72-ea05-4228-a588-cbf9cedb361b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-API-KEY",
+						"value": "0123456789ABCDEF",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://postman-echo.com/get?city=大阪&key2=101",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "大阪",
+							"type": "text"
+						},
+						{
+							"key": "key2",
+							"value": "101",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "新規POSTリクエスト",
+			"id": "26169716-8685a898-529e-41dc-a046-88782c9d65e3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
